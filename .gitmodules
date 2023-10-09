@@ -4,3 +4,6 @@
 [submodule "themes/kube"]
 	path = themes/kube
 	url = git@github.com:jeblister/kube.git
+[submodule "themes/whitespace"]
+	path = themes/whitespace
+	url = https://github.com/niklasfasching/whitespace

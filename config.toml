@@ -1,20 +1,21 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Kube for Hugo"
-theme = "kube"
-description = "Kube is a professional  and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog"
+title = "Salve Cheer"
+theme = "whitespace"
+description = "Website for the Salve Cheerleading team at Salve Regina University"
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
-  author = "elemnts.net" # add your company name
+  author = "salvecheer" # add your company name
   github = "" # add your github profile name
   twitter = "" # add your twitter profile
+  instagram = "salvereginacheer"
   email = "myemail@myaddress.xxx"
 
 [[menu.main]]
-    name = "Docs"
+    name = "About"
     weight = -100
-    url = "/docs/"
+    url = "/about/"
 [[menu.main]]
     name = "Blog"
     weight = -100

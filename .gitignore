@@ -1,0 +1,7 @@
+.DS_Store
+
+# Don't include published files
+public/
+
+# Don't inlcude generated resources
+resources/_gen/
