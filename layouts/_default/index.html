@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h1 class="title">{{ .Title }}</h1>
+<ul class="posts">
+  {{ range where (where .Site.RegularPages "Section" "posts") ".File.Ext" "org"
+  }}
+
+  <p>This is awesomes</p>
+  <li class="post">
+    <a href="{{ .Permalink }}">
+      <date>{{ .Date.Format "02.01.2006" }}</date>
+      <span {{ if .Draft }}style="background-color: yellow;" {{ end }}
+        >{{ .Title }}</span
+      >
+    </a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
