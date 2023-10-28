@@ -1,5 +1,23 @@
 {{ define "main" }}
 <h1 class="title">{{ .Title }}</h1>
+
+<p>Welcome to the Salve Regina Unofficial Cheerleading Team Homepage!</p>
+
+<ul class="main-links">
+  <li>
+    <a
+      href="https://salveathletics.com/sports/cheer/index"
+      alt="Official Cheerleading Page"
+      >Official Cheerleading Page</a
+    ></li>
+    <li>
+    <a
+      href="https://salve.campuslabs.com/engage/organization/cheerleading"
+      alt="Club Sports Cheerleading Page"
+      >Club Sports Salve Cheerleading Page</a
+    ></li>
+  </li>
+</ul>
 <ul class="posts">
   {{ range where (where .Site.RegularPages "Section" "posts") ".File.Ext" "org"
   }}
