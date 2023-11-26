@@ -1,0 +1,35 @@
+// Colors
+
+$primary-color: blue;
+$secondary-color: green;
+$tertiary-color: red;
+
+$primary-background-color: white;
+
+// Fonts
+$font-stack: "Roboto", sans-serif;
+
+body {
+  border: 1px solid $primary-color;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.main-links {
+  list-style: none;
+
+  li {
+    background-color: green;
+    margin: 20px;
+    text-align: center;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: blue;
+    }
+  }
+}
