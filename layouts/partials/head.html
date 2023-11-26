@@ -1,8 +1,2 @@
-<style>
-  body {
-    color: red;
-  }
-</style>
-
 {{ $salvestyles := resources.Get "../assets/salvestyles.scss" | toCSS }}
 <link rel="stylesheet" href="{{ $salvestyles.Permalink }}" type="text/css" />
